@@ -1,0 +1,7 @@
+conda activate
+bash init_setup.sh
+pip install -r requirements_dev.txt
+
+#if running in windows git bash try changin / to \ if error comes
+#if multiple .egg-info file error comes remove -e . from requirements_dev.txt
+
