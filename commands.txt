@@ -10,3 +10,5 @@ pip install -r requirements_dev.txt
 # to activate environment
 conda activate <environment-path>
 
+source activate ./env
+
