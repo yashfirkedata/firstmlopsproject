@@ -8,8 +8,10 @@ pip install -r requirements_dev.txt
 # Then write the experiments.ipynb file, select environment properly
 
 # to activate environment
-conda activate <environment-path>
-
 source activate ./env
 
 #watch lec 11 from 2:14 if unreasonable error comes
+
+#install setup.py
+python setup.py install
+
