@@ -1,19 +1,18 @@
-pandas
-scikit-learn
-numpy
-seaborn 
-flask
-mlflow==2.2.2
-dvc
-ipykernel
-xgboost
+echo [$(date)]: "START"
 
-# dev requirements -
 
-pytest==7.1.3
-tox==3.25.1
-black==22.8.0
-flake8==5.0.4
-mypy==0.971
+echo [$(date)]: "creating env with python 3.8 version" 
 
--e .
+
+conda create --prefix ./env python=3.8 -y
+
+
+echo [$(date)]: "activating the environment" 
+
+source activate ./env
+
+echo [$(date)]: "installing the dev requirements" 
+
+pip install -r requirements_dev.txt
+
+echo [$(date)]: "END" 
