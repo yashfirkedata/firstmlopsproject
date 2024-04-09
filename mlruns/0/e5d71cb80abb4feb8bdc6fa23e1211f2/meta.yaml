@@ -1,0 +1,15 @@
+artifact_uri: file:///home/yashfirke/firstmlopsproject/mlruns/0/e5d71cb80abb4feb8bdc6fa23e1211f2/artifacts
+end_time: 1712678775885
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e5d71cb80abb4feb8bdc6fa23e1211f2
+run_name: flawless-calf-25
+run_uuid: e5d71cb80abb4feb8bdc6fa23e1211f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712678773926
+status: 3
+tags: []
+user_id: yashfirke
