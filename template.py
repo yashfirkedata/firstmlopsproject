@@ -4,7 +4,7 @@ from pathlib import Path
 
 list_of_files =[
     ".github/workflows/.gitkeep",
-    "src/__init.__.py",
+    "src/__init__.py",
     "src/components/__init__.py",
     "src/components/data_ingestion.py",
     "src/components/data_transformation.py",
@@ -14,6 +14,7 @@ list_of_files =[
     "src/pipeline/training_pipeline.py",
     "src/pipeline/prediction_pipeline.py",
     "src/utils/utils.py",
+    "src/utils/__init__.py",
     "src/logger/logging.py",
     "src/logger/__init__.py",
     "src/exception/exception.py",
